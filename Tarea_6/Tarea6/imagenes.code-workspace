@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Tarea6/imagenes"
+		},
+		{
+			"path": "../../Tarea6"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Tarea6"
+	}
+}

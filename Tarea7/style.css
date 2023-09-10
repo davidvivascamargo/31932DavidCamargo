@@ -1,0 +1,65 @@
+
+
+body {
+    background-image: url(imagenes/hda.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 22px;
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 100px;
+}
+
+.container p{
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 22px;
+    margin: 10px;
+}
+
+#img1{
+    border-radius: 10%;
+    width: 650px;
+    height: 350px;
+    margin: 20px;
+}
+
+#img1{
+    float: right;
+}
+@media (max-width: 414px) {
+    #img1{
+        float: none;
+        height: 350px;
+        height: 250px;
+    }
+    .container p{
+        font-size: 18px;
+    }
+}
+
+.center{
+    margin: 0 auto;
+    width: 800px;
+    display: block;
+   }
