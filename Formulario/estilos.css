@@ -1,0 +1,25 @@
+body{
+    background: #27ae60;
+    text-align: center;
+}
+button:hover{
+    background-color: red;
+}
+
+.ventana{
+    background: #95a5a6; /*Color de fondo*/
+    text-align: center;
+    border: 5px solid grey;/*Borde tamaño, tipo y color*/
+    box-shadow: 5px 5px 5px #34495e;
+    width: 350px; /*Ajustar la ventana*/
+    margin-left: auto;  /*Centrar*/
+    margin-right: auto;/*Centrar*/
+    margin-top: 200px; /*Bajar*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tamaño{
+    padding: 20px;
+    text-align: center;
+}
