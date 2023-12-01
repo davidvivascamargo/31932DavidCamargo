@@ -1,9 +1,9 @@
 <?php
 
-$fullName = filter__input(INPUT_POST,)
+$fullName = filter_input(INPUT_POST, 'fullName');
 $userName = filter_input(INPUT_POST, 'userName');
 $email =filter_input(INPUT_POST,'email');
-$phoneNumber =filter_input(INPUT_POST,'phoneNumber')
+$phoneNumber =filter_input(INPUT_POST,'phoneNumber');
 $password = filter_input(INPUT_POST, 'password');
 $password2 =filter_input(INPUT_POST, 'password2');
 
