@@ -60,6 +60,7 @@ else
   echo "El nombre de usuario no debe estar vacío.";
   die();
  }
+
 }
 
  ?>
